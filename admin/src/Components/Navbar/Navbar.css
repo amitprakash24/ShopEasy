@@ -1,0 +1,55 @@
+/* Standard Desktop Styles (from your images) */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+
+.nav-logo { width: 200px; }
+.nav-profile { width: 75px; }
+
+/* --- Media Queries --- */
+
+/* For screens 1080px and below */
+@media (max-width: 1080px) {
+    .navbar {
+        padding: 15px 40px; /* Reducing side padding */
+    }
+}
+
+/* For screens 1024px and below (Tablets/Laptops) */
+@media (max-width: 1024px) {
+    .nav-logo {
+        width: 180px;
+    }
+}
+
+/* For screens 800px and below */
+@media (max-width: 800px) {
+    .navbar {
+        padding: 10px 30px;
+    }
+    .nav-logo {
+        width: 160px;
+    }
+    .nav-profile {
+        width: 60px;
+    }
+}
+
+/* For screens 500px and below (Mobile) */
+@media (max-width: 500px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+    .nav-logo {
+        width: 140px;
+    }
+    .nav-profile {
+        width: 50px;
+    }
+}

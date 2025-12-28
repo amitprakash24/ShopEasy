@@ -1,0 +1,170 @@
+/* PAGE BACKGROUND */
+.loginsignup {
+  width: 100%;
+  min-height: 100vh;
+  background: #fde1ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+/* WHITE CARD */
+.loginsignup-container {
+  width: 580px;
+  background: #ffffff;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+/* HEADING */
+.loginsignup-container h1 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #171717;
+}
+
+/* INPUT GROUP */
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* INPUT */
+.loginsignup-fields input {
+  height: 72px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  font-size: 18px;
+  color: #5c5c5c;
+  border-radius: 4px;
+}
+
+/* BUTTON */
+.loginsignup-container button {
+  width: 100%;
+  height: 72px;
+  margin-top: 30px;
+  background: #ff4141;
+  color: #ffffff;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* LOGIN TEXT */
+.loginsignup-container p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #5c5c5c;
+}
+
+.loginsignup-container span {
+  color: #ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* AGREEMENT */
+.loginsignup-aggre {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 25px;
+  font-size: 18px;
+  color: #5c5c5c;
+}
+
+.loginsignup-aggre input {
+  margin-top: 5px;
+}
+
+/* ================= 1080px ================= */
+@media (max-width: 1080px) {
+  .loginsignup-container {
+    width: 520px;
+  }
+
+  .loginsignup-container h1 {
+    font-size: 30px;
+  }
+}
+
+/* ================= 1024px ================= */
+@media (max-width: 1024px) {
+  .loginsignup-container {
+    width: 480px;
+    padding: 40px 50px;
+  }
+}
+
+/* ================= 800px ================= */
+@media (max-width: 800px) {
+  .loginsignup-container {
+    width: 90%;
+    padding: 35px 40px;
+  }
+
+  .loginsignup-container h1 {
+    font-size: 26px;
+  }
+
+  .loginsignup-fields input {
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .loginsignup-container button {
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .loginsignup-container p,
+  .loginsignup-aggre {
+    font-size: 16px;
+  }
+}
+
+/* ================= 500px ================= */
+@media (max-width: 500px) {
+  .loginsignup {
+    padding: 20px 0;
+  }
+
+  .loginsignup-container {
+    width: 95%;
+    padding: 30px 20px;
+  }
+
+  .loginsignup-container h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .loginsignup-fields input {
+    height: 55px;
+    font-size: 15px;
+  }
+
+  .loginsignup-container button {
+    height: 55px;
+    font-size: 18px;
+  }
+
+  .loginsignup-container p,
+  .loginsignup-aggre {
+    font-size: 14px;
+  }
+
+  .loginsignup-aggre {
+    gap: 10px;
+  }
+}
