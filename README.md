@@ -71,12 +71,16 @@ E-commerce/
 │   ├── models/
 │   └── uploads/images/
 │
-├── frontend/ (or admin/)
+├── frontend/ 
 │   ├── src/
 │   │   ├── Components/
 │   │   ├── Pages/
 │   │   ├── Context/
-│   │   └── CSS/
+|       └── CSS/
+|
+|     
+|── admin/
+│   
 │
 └── README.md
 ```
